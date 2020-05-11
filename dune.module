@@ -1,0 +1,12 @@
+################################
+# Dune module information file #
+################################
+
+# Name of the module
+Module: dune-mgis
+Version: 0.1
+Maintainer: thomas.helfer@cea.fr
+# Required build dependencies
+Depends: dune-common dune-geometry dune-uggrid dune-grid dune-istl dune-python dune-spgrid dune-localfunctions dune-typetree dune-functions dune-alugrid dune-grid-howto poisson-solver
+# Optional build dependencies
+#Suggests:
